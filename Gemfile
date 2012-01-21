@@ -33,7 +33,7 @@ gem 'jquery-rails'
 
 group :production do
 # gems specifically for heroku go here
-  gem 'pg'
+  gem 'pg', '0.12.2'
 end
 
 
@@ -45,4 +45,7 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'growl'
+  gem 'spork', '0.8.5'
+  gem 'nokogiri'
 end
