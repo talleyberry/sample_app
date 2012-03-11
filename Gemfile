@@ -6,6 +6,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 
 # Gems used only for assets and not required
@@ -30,7 +31,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-
 group :production do
 # gems specifically for heroku go here
   gem 'pg', '0.12.2'
@@ -49,4 +49,5 @@ group :test do
   gem 'growl'
   gem 'spork', '0.8.5'
   gem 'nokogiri'
+  gem 'factory_girl_rails'
 end
